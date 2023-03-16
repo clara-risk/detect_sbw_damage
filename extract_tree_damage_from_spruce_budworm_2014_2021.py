@@ -54,7 +54,7 @@ def concave_hull(points,a,compar):
     alpha = a #for concave hull
         
     print('yes')
-    hull = alphashape.alphashape(points,0.0036) #Swith 0 --> alpha
+    hull = alphashape.alphashape(points,a) 
 
     print('check!') 
     
