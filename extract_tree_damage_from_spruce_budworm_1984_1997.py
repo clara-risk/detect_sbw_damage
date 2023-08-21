@@ -221,7 +221,7 @@ def duplicated(yeari,mod):
     # and nbr1_year and filtering df so that it only contains rows where the values
     # in these columns are between the 1st and 99th percentile.
 
-    # Due this as a secondary checck to make sure cloud and shadow masks work.
+    # Do this as a secondary checck to make sure cloud and shadow masks work.
 
     # Important for machine learning because of "garbage in, garbage out" problem. 
 
